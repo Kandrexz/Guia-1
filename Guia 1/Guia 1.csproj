@@ -45,14 +45,116 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Formularios\Arandanos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Formularios\Arandanos.Designer.cs">
+      <DependentUpon>Arandanos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\CapCd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\CapCd.Designer.cs">
+      <DependentUpon>CapCd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\HastaVocal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\HastaVocal.Designer.cs">
+      <DependentUpon>HastaVocal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\HermanoMayor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\HermanoMayor.Designer.cs">
+      <DependentUpon>HermanoMayor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\HorasExtras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\HorasExtras.Designer.cs">
+      <DependentUpon>HorasExtras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\MetasVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\MetasVentas.Designer.cs">
+      <DependentUpon>MetasVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\NumeroMayor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\NumeroMayor.Designer.cs">
+      <DependentUpon>NumeroMayor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PuntajeFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PuntajeFinal.Designer.cs">
+      <DependentUpon>PuntajeFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PromedioSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PromedioSimple.Designer.cs">
+      <DependentUpon>PromedioSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Triangulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Triangulos.Designer.cs">
+      <DependentUpon>Triangulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\UnidDecenas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\UnidDecenas.Designer.cs">
+      <DependentUpon>UnidDecenas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\Arandanos.resx">
+      <DependentUpon>Arandanos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\CapCd.resx">
+      <DependentUpon>CapCd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\HastaVocal.resx">
+      <DependentUpon>HastaVocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\HermanoMayor.resx">
+      <DependentUpon>HermanoMayor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\HorasExtras.resx">
+      <DependentUpon>HorasExtras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\MetasVentas.resx">
+      <DependentUpon>MetasVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\NumeroMayor.resx">
+      <DependentUpon>NumeroMayor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PromedioSimple.resx">
+      <DependentUpon>PromedioSimple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PuntajeFinal.resx">
+      <DependentUpon>PuntajeFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Triangulos.resx">
+      <DependentUpon>Triangulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\UnidDecenas.resx">
+      <DependentUpon>UnidDecenas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,5 +177,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
